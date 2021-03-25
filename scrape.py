@@ -5,5 +5,5 @@ session = SgRequests()
 
 response = session.get("https://www.firstcash.com/king-pawn").text
 
-with open("data.csv", "w", encoding="utf-8") as output:
-    print(response, file=output)
+# with open("data.csv", "w", encoding="utf-8") as output:
+print(response)
