@@ -4,6 +4,8 @@ import json
 import pandas as pd
 import pgeocode
 import requests
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 state_list = [
     "AL",
